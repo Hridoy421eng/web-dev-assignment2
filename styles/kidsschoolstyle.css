@@ -15,6 +15,7 @@
     align-items: center;
     max-width: 1160px;
     margin: 0 auto;
+   
 }
 .nav-head{
     display: flex;
@@ -42,27 +43,27 @@
     display: flex;
 }
 .nav-item1 a{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: rgba(254, 163, 1, 1);
 }
 .nav-item2 a{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: skyblue;
 }
 .nav-item3 a{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: rgba(5, 212, 223, 1);
 }
 .nav-item4 a{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: rgba(93, 88, 239, 1);
 }
 .btn-primary{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: white;
     padding: 10px 60px;
@@ -74,6 +75,139 @@
     display: none;
 }
 
+
+/* enrollment section styles starts here */
+
+.enrollment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+/* .enrollment-content{
+    margin-right: 10px;
+} */
+.enroll-head{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.span1{
+    color: rgba(254, 163, 1, 1);
+}
+.span2{
+    color: rgba(17, 17, 17, 1);
+}
+.span3{
+    color: rgba(1, 172, 253, 1);
+}
+.enroll-descrip{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+    
+}
+.enroll-btn{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    margin-top: 10px;
+}
+.enroll-img{
+    width: 100%;
+}
+
+/* card container section starts here */
+
+.curr-container{
+    background-image: url(../assets/bg.png);
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.curr-head{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+   
+}
+
+.card-container{
+    display: flex;
+    /* width: 1160px;
+    margin: 0 auto; */
+    border-radius: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+.card{
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+.back-lin-a{
+    background: linear-gradient(rgb(222, 251, 255), rgba(255, 255, 255, 1));
+}
+.back-lin-b{
+    background: linear-gradient(rgb(255, 250, 220), rgba(255, 255, 255, 1));
+}
+.back-lin-c{
+    background: linear-gradient(rgb(247, 232, 255), rgba(255, 255, 255, 1));
+}
+
+.card-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+}
+.card-descrip{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+}
+.card-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 4px 23px 2px 1px;
+    border: none;
+    background-color: white;
+}
+.sky{
+    color: rgba(100, 200, 255, 1);
+}
+.yellow{
+    color: rgba(240, 170, 0, 1);
+}
+.violet{
+    color: rgba(135, 0, 255, 1);
+}
+
+.arrow-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.arr-pic1{
+    margin-right: 5px;
+}
+.arr-pic2{
+    margin-left: 5px;
+}
+
 /* responsive for small device style */
 
 @media screen and (max-width: 576px) {
@@ -81,9 +215,20 @@
         display: none;
     }
     .nav-icon{
-        display: block;
-       
+        display: block;  
     }
+    .navbar{
+        border-bottom: 1px solid sandybrown;
+    }
+
+    .enrollment{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
    
     
 }
