@@ -23,13 +23,14 @@
 .header-img{
     width: 62px;
     height: 62px;
-    padding-top: 20px;
+    /* padding-top: 5px; */
 }
 .nav-heading{
     font-size: 2rem;
     font-weight: bold;
     color: rgba(17, 17, 17, 1);
-    padding-bottom: 12px;
+    /* padding-bottom: 12px; */
+    margin-top: 40px;
 }
 .nav-items li{
     list-style: none;
@@ -269,7 +270,7 @@
         border-radius: 16px 16px 0 0;
     }
     .story-descrips{
-        height: 290px;
+        height: 320px;
         padding-left: 40px;
         background-color: white;
         border-radius: 0 0 16px 16px;
@@ -354,7 +355,6 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        text-align: center;
         margin: 0 auto;
         background-color: rgba(1, 172, 253, 1);
     }
@@ -371,7 +371,7 @@
         margin-top: 30px;
     }
     .foot-c-1-h{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         font-weight: bold;
         color: white;
     }
@@ -500,7 +500,9 @@
        /* story box styles here */
 
         .story-section{
-            width: 100%;
+            /* width: 100%; */
+            /* max-width: 576px; */
+            margin: 0 auto;
         }
        .story-box-head{
         font-size: 1.6rem;
@@ -518,6 +520,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+        width: 100%;
         margin: 0 auto;
        }
 
@@ -538,6 +541,7 @@
         padding-left: 10px;
         background-color: white;
         border-radius: 0 0 10px 10px;
+        margin-top: 0;
     }
     .story-btnss{
         font-size: 0.5rem;
@@ -590,21 +594,39 @@
 
     .footer-end{
         flex-direction: column;
+        align-items: start;
         height: 1000px;
         text-align: start;
     }
     .foot-c-1{
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        
+    }
+    .foot-c-1-h{
+        font-size: 2.2rem;
     }
     .foot-c-1-p{
-        margin-left: 10px;
+        margin-left: 5px;
+        font-size: 1rem;
     }
     .foot-c-2{
-        margin-top: 10px;
+        margin-top: 5px;  
+    }
+    .foot-c-2-h{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .foot-nav{
+        font-size: 1rem;
     }
     .foot-c-3{
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .foot-c-3-h{
+        font-size: 1.4rem;
+        font-weight: bold;
     }
     
    
